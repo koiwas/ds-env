@@ -12,7 +12,7 @@ Example：
 
 1. Clone this repository
 ```
-$ git clone git@github.com:koiwas/ds-env.git
+$ git clone https://github.com/koiwas/ds-env.git
 ```
 ```
 $ cd ~/ds-env
