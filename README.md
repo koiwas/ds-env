@@ -10,16 +10,15 @@ Example：
 
 # Useage on Local
 
-1. Create and Go into the directory
+1. Clone this repository
 ```
-$ mkdir ds-env
+$ git clone git@github.com:koiwas/ds-env.git
 ```
 ```
 $ cd ~/ds-env
 ```
-2. Download Dockerfile
 
-3. Build Dockerimage (for M1 Mac)
+2. Build Dockerimage (for M1 Mac)
 ```
 $ docker build --platform linux/amd64 .
 ```
@@ -27,12 +26,12 @@ $ docker build --platform linux/amd64 .
 $ docker images
 ```
 
-4. Run Dockerimage
+3. Run Dockerimage
 ```
 $ docker run -p 8888:8888 -v ~/ds_work:/work --name {container-name} {image}
 ```
 
-5. Access 'localhost:8888' !!!
+4. Access 'localhost:8888' !!!
 
 # Useage on AWS
 
