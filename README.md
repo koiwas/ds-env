@@ -95,4 +95,4 @@ $ docker images
 $ docker run -v ~/ds_work:/work -p 8888:8888 {image}
 ```
 
-5. Access 'localhost:8888' !!!
+5. Access 'Public DNS:8888' !!!
